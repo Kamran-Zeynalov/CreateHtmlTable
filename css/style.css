@@ -1,0 +1,17 @@
+table{
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    border: 2px solid #967c5c;
+    border-collapse: collapse;
+}
+table tr:nth-child(odd){
+    background-color: #9dcece;
+}
+table .thead th{
+    border-right: 2px dotted #d1b98c;
+}
+table tr td{
+    padding-left: 15px;
+    border: 2px dashed black;
+}
